@@ -17,7 +17,7 @@ sudo docker run -p 8080:8080 springio/employee-docker
 ```
 ./mvnw test
 ```
-- API contract and documentation is Done using OPEN API complient SWAGGER 2 and is available at the following link while the app is running 
+- API contract and documentation is Done using OPEN API complient SWAGGER 2 and is available at the following link while the app is running  at the following link
 ```
 http://localhost:8080/swagger-ui/
 ```
