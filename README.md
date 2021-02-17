@@ -1,4 +1,4 @@
-# pplflowAssessment
+# pplflow Assessment
 
 **First Part:**
 frist part is implemented with its considarations
@@ -22,3 +22,13 @@ sudo docker run -p 8080:8080 springio/employee-docker
 http://localhost:8080/swagger-ui/
 ```
 **Second Part**
+
+-  my silver bullet, concerns while you're reviewing this part is as folllow:
+-- Make use of static analysis tool such as SonarQube
+-- Check the components in code, their sizes, and their interactions with other components in the code.
+--Identify and look closely at certain types of code hot-spots, such as:
+---Large classes
+---Complex methods
+---Large components
+---Lot of dependencies
+---Uncovered code
