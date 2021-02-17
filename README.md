@@ -4,7 +4,7 @@
 frist part is implemented with its considarations
 - Being simply executable with the least effort Ideally using Docker.
    * you can run it locally using the following command ``` ./mvnw package && java -jar target/pplflwAssessment-0.0.1-SNAPSHOT.jar ```
- yo can create a docker image using the following command 
+   * you can create a docker image using the following command 
  ```
  sudo ./mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=springio/employee-docker
  ```
