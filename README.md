@@ -23,12 +23,21 @@ http://localhost:8080/swagger-ui/
 ```
 **Second Part**
 
--  my silver bullet, concerns while you're reviewing this part is as folllow:
+-  my silver bullet, concerns while I'm reviewing this part is as folllow:
     * Make use of static analysis tool such as SonarQube
     * Check the components in code, their sizes, and their interactions with other components in the code.
-       * Identify and look closely at certain types of code hot-spots, such as:
+    * Identify and look closely at certain types of code hot-spots, such as:
        * Large classes
        * Complex methods
        * Large components
        * Lot of dependencies
+       * usee jacoco or similer tool to get the code test  coverage 
        * Uncovered code
+    * Review the Junits for complex method and classes, and see how readable the code actually is.
+    * Look at the readability of the code, by focusing on the Four Principles Of Simple Design.
+- production readiness creteria 
+    * Readability
+    * Error-handling and logging what happened
+    * Maintainability
+    * Testability
+    * Following the twelve-factor-app methodology 
